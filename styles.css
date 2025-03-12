@@ -1,0 +1,19 @@
+#spinner{
+    width: 64px;
+    height: 64px;
+    border-width : 6px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: aqua transparent aqua transparent;
+}
+@keyframes rotate {
+    form{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+#spinner {
+    animation: rotate 1.5s infinite;
+}
